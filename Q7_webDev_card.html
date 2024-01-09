@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A Div Card</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+      }
+      .card {
+        display: flex;
+        justify-content: center;
+        background-color: rgb(12, 216, 223);
+        width: 20vw;
+        height: 40vh;
+        padding: 5px;
+        border-radius: 20px;
+      }
+
+      .image img {
+        max-width: 300px;
+        height: 200px;
+        border-radius: 20px;
+        position: relative;
+        left: 3%;
+      }
+
+      .card:hover {
+        opacity: 50%;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="image">
+        <img
+          src="assets\web_dev_card.png"
+          alt="PW Skills Full stack web development"
+        />
+        <p><b>Course Name:</b> PW Skills full stack web development</p>
+      </div>
+    </div>
+  </body>
+</html>
